@@ -215,7 +215,7 @@ class Dbhelper:
 
         c.close()
 
-        return [lower_marks[0][0] , upper_marks[0][0], equal_marks[0][0]]
+        return [lower_marks[0][0] , upper_marks[0][0], equal_marks[0][0]-1]
 
 
     
